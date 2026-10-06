@@ -11,6 +11,7 @@ on:
         options:
           - twrp-12.1
           - twrp-11
+          - twrp-14.1
 
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
