@@ -21,19 +21,17 @@ on:
       DEVICE_PATH:
         description: 'Specify your device path.'
         required: true
-        default: 'device/symphony/Symphony_Z50'
+        default: 'device/xiaomi/lake'
       DEVICE_NAME:
         description: 'Specify your Device Codename.'
         required: true
-        default: 'marble'
+        default: 'lake'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
-        default: 'recovery'
+        default: 'vendorboot'
         type: choice
         options:
-        - boot
-        - recovery
         - vendorboot
       LDCHECK:
         description: 'Path of blobs to check' 
