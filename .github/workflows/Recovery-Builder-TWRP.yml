@@ -39,8 +39,6 @@ on:
         default: 'recovery'
         type: choice
         options:
-          - boot
-          - recovery
           - vendorboot
 
       LDCHECK:
